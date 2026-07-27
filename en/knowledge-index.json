@@ -1,0 +1,47 @@
+{
+  "version": "1.0",
+  "locale": "en",
+  "updatedAt": "2026-07-28T00:00:00Z",
+  "items": [
+    {
+      "id": "faq-account-001",
+      "title": "How to change my password?",
+      "keywords": ["password", "change password", "forgot password", "account security", "reset password"],
+      "path": "en/knowledge/faq/account-password.md",
+      "category": "faq",
+      "weight": 5
+    },
+    {
+      "id": "faq-account-002",
+      "title": "How to create a HiredChina account?",
+      "keywords": ["register", "sign up", "create account", "new user"],
+      "path": "en/knowledge/faq/account-register.md",
+      "category": "faq",
+      "weight": 5
+    },
+    {
+      "id": "faq-job-001",
+      "title": "How to search and apply for jobs?",
+      "keywords": ["job search", "apply", "search jobs", "submit resume", "find jobs"],
+      "path": "en/knowledge/faq/job-search.md",
+      "category": "faq",
+      "weight": 4
+    },
+    {
+      "id": "guide-resume-001",
+      "title": "How to write a good resume?",
+      "keywords": ["resume", "CV", "tips", "job hunting", "resume tips"],
+      "path": "en/knowledge/guide/resume-tips.md",
+      "category": "guide",
+      "weight": 3
+    },
+    {
+      "id": "product-intro-001",
+      "title": "About HiredChina Platform",
+      "keywords": ["about", "platform", "introduction", "what is HiredChina"],
+      "path": "en/knowledge/product/platform-intro.md",
+      "category": "product",
+      "weight": 2
+    }
+  ]
+}

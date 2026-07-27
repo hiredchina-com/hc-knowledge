@@ -1,0 +1,47 @@
+{
+  "version": "1.0",
+  "locale": "zh",
+  "updatedAt": "2026-07-28T00:00:00Z",
+  "items": [
+    {
+      "id": "faq-account-001",
+      "title": "如何修改账号密码？",
+      "keywords": ["密码", "修改密码", "忘记密码", "账号安全", "找回密码"],
+      "path": "zh/knowledge/faq/account-password.md",
+      "category": "faq",
+      "weight": 5
+    },
+    {
+      "id": "faq-account-002",
+      "title": "如何注册 HiredChina 账号？",
+      "keywords": ["注册", "创建账号", "sign up", "register", "新用户"],
+      "path": "zh/knowledge/faq/account-register.md",
+      "category": "faq",
+      "weight": 5
+    },
+    {
+      "id": "faq-job-001",
+      "title": "如何搜索和申请职位？",
+      "keywords": ["找工作", "申请职位", "搜索职位", "投递简历", "job search"],
+      "path": "zh/knowledge/faq/job-search.md",
+      "category": "faq",
+      "weight": 4
+    },
+    {
+      "id": "guide-resume-001",
+      "title": "如何写一份好的简历？",
+      "keywords": ["简历", "CV", "resume", "求职技巧", "简历优化"],
+      "path": "zh/knowledge/guide/resume-tips.md",
+      "category": "guide",
+      "weight": 3
+    },
+    {
+      "id": "product-intro-001",
+      "title": "HiredChina 平台介绍",
+      "keywords": ["平台介绍", "什么是 HiredChina", "产品说明", "about us"],
+      "path": "zh/knowledge/product/platform-intro.md",
+      "category": "product",
+      "weight": 2
+    }
+  ]
+}
