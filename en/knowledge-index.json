@@ -1,0 +1,239 @@
+{
+  "version": "1.0",
+  "locale": "en",
+  "updatedAt": "2026-08-04T00:00:00Z",
+  "items": [
+    {
+      "id": "faq-account-001",
+      "title": "How do I change my account password?",
+      "keywords": ["password", "change password", "forgot password", "account security", "reset password"],
+      "path": "en/faq/account-password.md",
+      "category": "faq",
+      "weight": 5
+    },
+    {
+      "id": "faq-account-002",
+      "title": "How do I register for a HiredChina account?",
+      "keywords": ["register", "sign up", "create account", "new user"],
+      "path": "en/faq/account-register.md",
+      "category": "faq",
+      "weight": 5
+    },
+    {
+      "id": "faq-account-003",
+      "title": "How do I bind or change my phone number or email?",
+      "keywords": ["bind phone", "change email", "phone number", "contact", "verification"],
+      "path": "en/faq/account-binding.md",
+      "category": "faq",
+      "weight": 5
+    },
+    {
+      "id": "faq-account-004",
+      "title": "What should I do if I cannot log in?",
+      "keywords": ["login failed", "cannot log in", "wrong password", "account locked", "login"],
+      "path": "en/faq/login-failed.md",
+      "category": "faq",
+      "weight": 5
+    },
+    {
+      "id": "faq-job-001",
+      "title": "How do I search and apply for jobs?",
+      "keywords": ["job search", "apply for jobs", "search jobs", "submit resume"],
+      "path": "en/faq/job-search.md",
+      "category": "faq",
+      "weight": 4
+    },
+    {
+      "id": "faq-job-002",
+      "title": "How do I check my application status?",
+      "keywords": ["application status", "application progress", "interview invitation", "my applications"],
+      "path": "en/faq/job-apply-status.md",
+      "category": "faq",
+      "weight": 4
+    },
+    {
+      "id": "faq-resume-001",
+      "title": "How do I upload my resume?",
+      "keywords": ["upload resume", "resume attachment", "resume parsing", "PDF", "DOCX"],
+      "path": "en/faq/resume-upload.md",
+      "category": "faq",
+      "weight": 4
+    },
+    {
+      "id": "faq-resume-002",
+      "title": "How is my resume privacy protected?",
+      "keywords": ["resume privacy", "resume visibility", "privacy settings", "data security"],
+      "path": "en/faq/resume-privacy.md",
+      "category": "faq",
+      "weight": 4
+    },
+    {
+      "id": "faq-notify-001",
+      "title": "How do I manage email notifications?",
+      "keywords": ["email notifications", "notification settings", "subscribe", "alerts"],
+      "path": "en/faq/email-notifications.md",
+      "category": "faq",
+      "weight": 3
+    },
+    {
+      "id": "faq-comm-001",
+      "title": "How do I use the Message Center?",
+      "keywords": ["message center", "messages", "employer communication", "chat"],
+      "path": "en/faq/message-center.md",
+      "category": "faq",
+      "weight": 3
+    },
+    {
+      "id": "faq-ai-001",
+      "title": "How do I use the AI customer service?",
+      "keywords": ["AI customer service", "chatbot", "Widget", "help"],
+      "path": "en/faq/ai-cs-usage.md",
+      "category": "faq",
+      "weight": 4
+    },
+    {
+      "id": "faq-security-001",
+      "title": "How does HiredChina protect my privacy and security?",
+      "keywords": ["privacy protection", "account security", "fraud prevention", "data encryption", "report"],
+      "path": "en/faq/privacy-security.md",
+      "category": "faq",
+      "weight": 5
+    },
+    {
+      "id": "guide-profile-001",
+      "title": "How do I complete my profile?",
+      "keywords": ["profile", "complete profile", "job preferences", "work experience"],
+      "path": "en/guides/profile-complete.md",
+      "category": "guides",
+      "weight": 4
+    },
+    {
+      "id": "guide-resume-001",
+      "title": "How do I write a good resume?",
+      "keywords": ["resume", "CV", "resume tips", "job search tips"],
+      "path": "en/guides/resume-tips.md",
+      "category": "guides",
+      "weight": 4
+    },
+    {
+      "id": "guide-resume-002",
+      "title": "Resume Optimization Guide",
+      "keywords": ["resume optimization", "resume structure", "quantified achievements", "job search advice"],
+      "path": "en/guides/resume-optimization.md",
+      "category": "guides",
+      "weight": 4
+    },
+    {
+      "id": "guide-apply-001",
+      "title": "Job Application Tips",
+      "keywords": ["application tips", "cover letter", "apply for jobs", "interview opportunities"],
+      "path": "en/guides/job-application-tips.md",
+      "category": "guides",
+      "weight": 3
+    },
+    {
+      "id": "guide-interview-001",
+      "title": "Interview Preparation Guide",
+      "keywords": ["interview prep", "video interview", "interview questions", "interview tips"],
+      "path": "en/guides/interview-prep.md",
+      "category": "guides",
+      "weight": 4
+    },
+    {
+      "id": "guide-recruiter-001",
+      "title": "Recruiter Dashboard Guide",
+      "keywords": ["recruiter", "dashboard", "job management", "candidate management"],
+      "path": "en/guides/recruiter-dashboard.md",
+      "category": "guides",
+      "weight": 3
+    },
+    {
+      "id": "guide-company-001",
+      "title": "How do I set up a company profile?",
+      "keywords": ["company profile", "employer brand", "company introduction", "recruiter guide"],
+      "path": "en/guides/company-profile.md",
+      "category": "guides",
+      "weight": 3
+    },
+    {
+      "id": "guide-talent-001",
+      "title": "How do I search for talent?",
+      "keywords": ["talent search", "candidates", "recruiting tips", "headhunter"],
+      "path": "en/guides/talent-search.md",
+      "category": "guides",
+      "weight": 3
+    },
+    {
+      "id": "guide-hrs-001",
+      "title": "HRS Headhunter System Workflow",
+      "keywords": ["HRS", "headhunter system", "headhunter", "commission"],
+      "path": "en/guides/hrs-workflow.md",
+      "category": "guides",
+      "weight": 3
+    },
+    {
+      "id": "guide-content-001",
+      "title": "Content and Events Guide",
+      "keywords": ["news", "events", "job fairs", "content subscription"],
+      "path": "en/guides/content-events.md",
+      "category": "guides",
+      "weight": 2
+    },
+    {
+      "id": "guide-ai-001",
+      "title": "AI Services Guide",
+      "keywords": ["AI services", "AI customer service", "resume parsing", "job recommendations"],
+      "path": "en/guides/ai-services.md",
+      "category": "guides",
+      "weight": 4
+    },
+    {
+      "id": "product-intro-001",
+      "title": "HiredChina Platform Introduction",
+      "keywords": ["platform introduction", "what is HiredChina", "about us"],
+      "path": "en/product-overview/platform-intro.md",
+      "category": "product-overview",
+      "weight": 5
+    },
+    {
+      "id": "product-audience-001",
+      "title": "Target Users and Audiences",
+      "keywords": ["job seekers", "employers", "headhunters", "user roles"],
+      "path": "en/product-overview/audiences.md",
+      "category": "product-overview",
+      "weight": 4
+    },
+    {
+      "id": "product-features-001",
+      "title": "Core Features Overview",
+      "keywords": ["core features", "job search", "talent search", "AI services"],
+      "path": "en/product-overview/core-features.md",
+      "category": "product-overview",
+      "weight": 4
+    },
+    {
+      "id": "product-trust-001",
+      "title": "Platform Trust and Safety",
+      "keywords": ["trust", "safety", "company verification", "fraud prevention", "privacy"],
+      "path": "en/product-overview/trust-safety.md",
+      "category": "product-overview",
+      "weight": 4
+    },
+    {
+      "id": "product-premium-001",
+      "title": "Premium Services",
+      "keywords": ["premium services", "membership", "recruitment package", "resume boost"],
+      "path": "en/product-overview/premium-services.md",
+      "category": "product-overview",
+      "weight": 2
+    },
+    {
+      "id": "changelog-2026-08",
+      "title": "August 2026 Updates",
+      "keywords": ["changelog", "new features", "fixes", "2026-08"],
+      "path": "en/changelog/2026-08.md",
+      "category": "changelog",
+      "weight": 3
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>职位投递技巧 · HiredChina 帮助中心</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  darkMode: "class",
+  theme: { extend: { fontFamily: { sans: ["-apple-system","BlinkMacSystemFont","Segoe UI","Noto Sans SC","sans-serif"] } } }
+};
+</script>
+<style>
+
+@media print {
+  body { max-width: none !important; padding: 0 !important; }
+  pre { white-space: pre-wrap; word-wrap: break-word; }
+  .no-print { display: none !important; }
+}
+.mermaid { display: flex; justify-content: center; }
+/* 站点导航壳样式(仅 renderPage 使用) */
+.site-header { position: sticky; top: 0; z-index: 50; backdrop-filter: blur(8px); }
+.site-sidebar { position: sticky; top: 64px; max-height: calc(100vh - 64px); overflow-y: auto; }
+
+</style>
+</head>
+<body class="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200">
+<div class="min-h-screen flex flex-col">
+  <header class="site-header no-print bg-white/80 dark:bg-slate-900/80 border-b border-slate-200 dark:border-slate-700">
+    <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+      <a href="/" class="text-lg font-bold text-slate-900 dark:text-slate-50">HiredChina 帮助中心</a>
+      <div class="flex items-center gap-2">
+        
+    <button onclick="toggleTheme()" class="no-print px-3 py-1 rounded text-sm text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800" title="切换主题">
+      <span class="dark:hidden">🌙</span><span class="hidden dark:inline">☀️</span>
+    </button>
+        <div class="flex items-center gap-1"><a href="/" class="px-3 py-1 rounded text-sm bg-blue-600 text-white">中文</a>
+<a href="/en/" class="px-3 py-1 rounded text-sm text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800">English</a></div>
+      </div>
+    </div>
+  </header>
+  <div class="flex-1 max-w-6xl mx-auto px-6 py-8 w-full flex gap-8">
+    <aside class="site-sidebar no-print w-56 flex-shrink-0 hidden lg:block">
+      <div class="mb-4">
+      <div class="px-3 py-1 text-xs font-semibold uppercase tracking-wide text-slate-400 dark:text-slate-500">📘 产品介绍</div>
+      <div class="mt-1 space-y-0.5"><a href="/product-overview/audiences.html" class="block px-3 py-1.5 rounded text-sm text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800">目标用户与服务对象</a>
+<a href="/product-overview/core-features.html" class="block px-3 py-1.5 rounded text-sm text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800">核心功能概览</a>
+<a href="/product-overview/platform-intro.html" class="block px-3 py-1.5 rounded text-sm text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800">HiredChina 平台介绍</a>
+<a href="/product-overview/premium-services.html" class="block px-3 py-1.5 rounded text-sm text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800">增值服务说明</a>
+<a href="/product-overview/trust-safety.html" class="block px-3 py-1.5 rounded text-sm text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800">平台信任与安全</a></div>
+    </div>
+<div class="mb-4">
+      <div class="px-3 py-1 text-xs font-semibold uppercase tracking-wide text-blue-600 dark:text-blue-400">📖 使用指南</div>
+      <div class="mt-1 space-y-0.5"><a href="/guides/ai-services.html" class="block px-3 py-1.5 rounded text-sm text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800">AI 服务使用指南</a>
+<a href="/guides/company-profile.html" class="block px-3 py-1.5 rounded text-sm text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800">如何设置公司主页？</a>
+<a href="/guides/content-events.html" class="block px-3 py-1.5 rounded text-sm text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800">内容与活动使用指南</a>
+<a href="/guides/hrs-workflow.html" class="block px-3 py-1.5 rounded text-sm text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800">HRS 猎头系统工作流程</a>
+<a href="/guides/interview-prep.html" class="block px-3 py-1.5 rounded text-sm text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800">面试准备指南</a>
+<a href="/guides/job-application-tips.html" class="block px-3 py-1.5 rounded text-sm bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 font-medium">职位投递技巧</a>
+<a href="/guides/profile-complete.html" class="block px-3 py-1.5 rounded text-sm text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800">如何完善个人档案？</a>
+<a href="/guides/recruiter-dashboard.html" class="block px-3 py-1.5 rounded text-sm text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800">招聘方工作台使用指南</a>
+<a href="/guides/resume-optimization.html" class="block px-3 py-1.5 rounded text-sm text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800">简历优化指南</a>
+<a href="/guides/resume-tips.html" class="block px-3 py-1.5 rounded text-sm text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800">如何写一份好的简历？</a>
+<a href="/guides/talent-search.html" class="block px-3 py-1.5 rounded text-sm text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800">如何搜索人才？</a></div>
+    </div>
+<div class="mb-4">
+      <div class="px-3 py-1 text-xs font-semibold uppercase tracking-wide text-slate-400 dark:text-slate-500">❓ 常见问题</div>
+      <div class="mt-1 space-y-0.5"><a href="/faq/account-binding.html" class="block px-3 py-1.5 rounded text-sm text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800">如何绑定或更换手机号/邮箱？</a>
+<a href="/faq/account-password.html" class="block px-3 py-1.5 rounded text-sm text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800">如何修改账号密码？</a>
+<a href="/faq/account-register.html" class="block px-3 py-1.5 rounded text-sm text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800">如何注册 HiredChina 账号？</a>
+<a href="/faq/ai-cs-usage.html" class="block px-3 py-1.5 rounded text-sm text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800">如何使用 AI 客服？</a>
+<a href="/faq/email-notifications.html" class="block px-3 py-1.5 rounded text-sm text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800">如何管理邮件通知？</a>
+<a href="/faq/job-apply-status.html" class="block px-3 py-1.5 rounded text-sm text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800">如何查看职位申请状态？</a>
+<a href="/faq/job-search.html" class="block px-3 py-1.5 rounded text-sm text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800">如何搜索和申请职位？</a>
+<a href="/faq/login-failed.html" class="block px-3 py-1.5 rounded text-sm text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800">登录失败怎么办？</a>
+<a href="/faq/message-center.html" class="block px-3 py-1.5 rounded text-sm text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800">如何使用消息中心？</a>
+<a href="/faq/privacy-security.html" class="block px-3 py-1.5 rounded text-sm text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800">HiredChina 如何保护我的隐私和安全？</a>
+<a href="/faq/resume-privacy.html" class="block px-3 py-1.5 rounded text-sm text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800">简历隐私如何保护？</a>
+<a href="/faq/resume-upload.html" class="block px-3 py-1.5 rounded text-sm text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800">如何上传简历？</a></div>
+    </div>
+<div class="mb-4">
+      <div class="px-3 py-1 text-xs font-semibold uppercase tracking-wide text-slate-400 dark:text-slate-500">🔄 更新日志</div>
+      <div class="mt-1 space-y-0.5"><a href="/changelog/2026-08.html" class="block px-3 py-1.5 rounded text-sm text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800">2026 年 8 月更新</a></div>
+    </div>
+    </aside>
+    <main class="flex-1 min-w-0">
+      <article class="prose prose-slate dark:prose-invert max-w-none">
+        <h1 class="text-3xl font-bold mb-6 pb-3 border-b-2 border-slate-300 dark:border-slate-600 text-slate-900 dark:text-slate-50">职位投递技巧</h1>
+
+<p class="my-3 text-slate-700 dark:text-slate-300 leading-relaxed">掌握正确的投递技巧，可以提高您的简历被查看和回复的概率。</p>
+
+<h2 class="text-xl font-bold mt-8 mb-4 pb-2 border-b border-slate-200 dark:border-slate-700 text-slate-900 dark:text-slate-100">投递前准备</h2>
+
+<p class="my-3 text-slate-700 dark:text-slate-300 leading-relaxed">1. 仔细阅读职位描述，确认自己符合核心要求</p>
+<p class="my-3 text-slate-700 dark:text-slate-300 leading-relaxed">2. 研究目标公司和团队背景</p>
+<p class="my-3 text-slate-700 dark:text-slate-300 leading-relaxed">3. 根据职位调整简历重点</p>
+<p class="my-3 text-slate-700 dark:text-slate-300 leading-relaxed">4. 准备一份简洁的求职信</p>
+
+<h2 class="text-xl font-bold mt-8 mb-4 pb-2 border-b border-slate-200 dark:border-slate-700 text-slate-900 dark:text-slate-100">投递时</h2>
+
+<ul class="my-3 space-y-1"><li class="ml-6 list-disc text-slate-700 dark:text-slate-300">选择最合适的简历版本</li>
+<li class="ml-6 list-disc text-slate-700 dark:text-slate-300">求职信中说明为什么适合这个职位</li>
+<li class="ml-6 list-disc text-slate-700 dark:text-slate-300">保持求职信简短，不超过 200 字</li>
+<li class="ml-6 list-disc text-slate-700 dark:text-slate-300">检查联系方式是否正确</li>
+</ul>
+<h2 class="text-xl font-bold mt-8 mb-4 pb-2 border-b border-slate-200 dark:border-slate-700 text-slate-900 dark:text-slate-100">投递后</h2>
+
+<ul class="my-3 space-y-1"><li class="ml-6 list-disc text-slate-700 dark:text-slate-300">在「我的申请」中跟踪状态</li>
+<li class="ml-6 list-disc text-slate-700 dark:text-slate-300">如果 1-2 周未收到回复，可以礼貌地发送跟进消息</li>
+<li class="ml-6 list-disc text-slate-700 dark:text-slate-300">同时继续投递其他合适的职位</li>
+</ul>
+<h2 class="text-xl font-bold mt-8 mb-4 pb-2 border-b border-slate-200 dark:border-slate-700 text-slate-900 dark:text-slate-100">提高成功率的方法</h2>
+
+<ul class="my-3 space-y-1"><li class="ml-6 list-disc text-slate-700 dark:text-slate-300">优先投递与自身经验匹配度高的职位</li>
+<li class="ml-6 list-disc text-slate-700 dark:text-slate-300">保持活跃，定期更新档案</li>
+<li class="ml-6 list-disc text-slate-700 dark:text-slate-300">完善在线简历，提升完整度</li>
+<li class="ml-6 list-disc text-slate-700 dark:text-slate-300">利用平台的职位推荐功能</li>
+</ul>
+<hr class="my-8 border-slate-200 dark:border-slate-700">
+<em>最后更新：2026-08-04</em>
+
+      </article>
+      
+    <div class="mt-12 pt-6 border-t border-slate-200 dark:border-slate-700 flex justify-between text-sm">
+      <a href="/guides/interview-prep.html" class="text-slate-500 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400">← 面试准备指南</a>
+      <a href="/guides/profile-complete.html" class="text-slate-500 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400">如何完善个人档案？ →</a>
+    </div>
+      
+    <footer class="mt-16 pt-6 border-t border-slate-200 dark:border-slate-700 text-sm text-slate-400 dark:text-slate-500">
+      <div class="flex justify-between items-center">
+        <span>© 2026 HiredChina 帮助中心</span>
+        <a href="https://hiredchina.com/contact" class="hover:text-blue-600 dark:hover:text-blue-400">反馈</a>
+      </div>
+    </footer>
+    </main>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script>
+mermaid.initialize({ startOnLoad: true, theme: window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "default", securityLevel: "loose" });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-core.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1/plugins/autoloader/prism-autoloader.min.js"></script>
+<script>function toggleTheme(){const d=document.documentElement;if(d.classList.contains("dark")){d.classList.remove("dark");localStorage.theme="light"}else{d.classList.add("dark");localStorage.theme="dark"}}if(localStorage.theme==="dark"||(!localStorage.theme&&window.matchMedia("(prefers-color-scheme: dark)").matches)){document.documentElement.classList.add("dark")}</script>
+</body>
+</html>
