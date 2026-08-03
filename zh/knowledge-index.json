@@ -1,13 +1,13 @@
 {
   "version": "1.0",
   "locale": "zh",
-  "updatedAt": "2026-07-28T00:00:00Z",
+  "updatedAt": "2026-08-04T00:00:00Z",
   "items": [
     {
       "id": "faq-account-001",
       "title": "如何修改账号密码？",
       "keywords": ["密码", "修改密码", "忘记密码", "账号安全", "找回密码"],
-      "path": "zh/knowledge/faq/account-password.md",
+      "path": "zh/faq/account-password.md",
       "category": "faq",
       "weight": 5
     },
@@ -15,7 +15,23 @@
       "id": "faq-account-002",
       "title": "如何注册 HiredChina 账号？",
       "keywords": ["注册", "创建账号", "sign up", "register", "新用户"],
-      "path": "zh/knowledge/faq/account-register.md",
+      "path": "zh/faq/account-register.md",
+      "category": "faq",
+      "weight": 5
+    },
+    {
+      "id": "faq-account-003",
+      "title": "如何绑定或更换手机号/邮箱？",
+      "keywords": ["绑定手机", "更换邮箱", "手机号", "联系方式", "验证"],
+      "path": "zh/faq/account-binding.md",
+      "category": "faq",
+      "weight": 5
+    },
+    {
+      "id": "faq-account-004",
+      "title": "登录失败怎么办？",
+      "keywords": ["登录失败", "无法登录", "密码错误", "账号锁定", "登录"],
+      "path": "zh/faq/login-failed.md",
       "category": "faq",
       "weight": 5
     },
@@ -23,25 +39,201 @@
       "id": "faq-job-001",
       "title": "如何搜索和申请职位？",
       "keywords": ["找工作", "申请职位", "搜索职位", "投递简历", "job search"],
-      "path": "zh/knowledge/faq/job-search.md",
+      "path": "zh/faq/job-search.md",
       "category": "faq",
+      "weight": 4
+    },
+    {
+      "id": "faq-job-002",
+      "title": "如何查看职位申请状态？",
+      "keywords": ["申请状态", "投递进度", "面试邀请", "我的申请"],
+      "path": "zh/faq/job-apply-status.md",
+      "category": "faq",
+      "weight": 4
+    },
+    {
+      "id": "faq-resume-001",
+      "title": "如何上传简历？",
+      "keywords": ["上传简历", "简历附件", "简历解析", "PDF", "DOCX"],
+      "path": "zh/faq/resume-upload.md",
+      "category": "faq",
+      "weight": 4
+    },
+    {
+      "id": "faq-resume-002",
+      "title": "简历隐私如何保护？",
+      "keywords": ["简历隐私", "简历可见度", "隐私设置", "数据安全"],
+      "path": "zh/faq/resume-privacy.md",
+      "category": "faq",
+      "weight": 4
+    },
+    {
+      "id": "faq-notify-001",
+      "title": "如何管理邮件通知？",
+      "keywords": ["邮件通知", "通知设置", "订阅", "消息提醒"],
+      "path": "zh/faq/email-notifications.md",
+      "category": "faq",
+      "weight": 3
+    },
+    {
+      "id": "faq-comm-001",
+      "title": "如何使用消息中心？",
+      "keywords": ["消息中心", "站内信", "招聘方沟通", "聊天"],
+      "path": "zh/faq/message-center.md",
+      "category": "faq",
+      "weight": 3
+    },
+    {
+      "id": "faq-ai-001",
+      "title": "如何使用 AI 客服？",
+      "keywords": ["AI 客服", "智能客服", "在线客服", "Widget", "帮助"],
+      "path": "zh/faq/ai-cs-usage.md",
+      "category": "faq",
+      "weight": 4
+    },
+    {
+      "id": "faq-security-001",
+      "title": "HiredChina 如何保护我的隐私和安全？",
+      "keywords": ["隐私保护", "账号安全", "防诈骗", "数据加密", "举报"],
+      "path": "zh/faq/privacy-security.md",
+      "category": "faq",
+      "weight": 5
+    },
+    {
+      "id": "guide-profile-001",
+      "title": "如何完善个人档案？",
+      "keywords": ["个人档案", "完善资料", "求职意向", "工作经历"],
+      "path": "zh/guides/profile-complete.md",
+      "category": "guides",
       "weight": 4
     },
     {
       "id": "guide-resume-001",
       "title": "如何写一份好的简历？",
       "keywords": ["简历", "CV", "resume", "求职技巧", "简历优化"],
-      "path": "zh/knowledge/guide/resume-tips.md",
-      "category": "guide",
+      "path": "zh/guides/resume-tips.md",
+      "category": "guides",
+      "weight": 4
+    },
+    {
+      "id": "guide-resume-002",
+      "title": "简历优化指南",
+      "keywords": ["简历优化", "简历结构", "量化成果", "求职建议"],
+      "path": "zh/guides/resume-optimization.md",
+      "category": "guides",
+      "weight": 4
+    },
+    {
+      "id": "guide-apply-001",
+      "title": "职位投递技巧",
+      "keywords": ["投递技巧", "求职信", "申请职位", "面试机会"],
+      "path": "zh/guides/job-application-tips.md",
+      "category": "guides",
       "weight": 3
+    },
+    {
+      "id": "guide-interview-001",
+      "title": "面试准备指南",
+      "keywords": ["面试准备", "视频面试", "面试问题", "面试技巧"],
+      "path": "zh/guides/interview-prep.md",
+      "category": "guides",
+      "weight": 4
+    },
+    {
+      "id": "guide-recruiter-001",
+      "title": "招聘方工作台使用指南",
+      "keywords": ["招聘方", "工作台", "职位管理", "候选人管理"],
+      "path": "zh/guides/recruiter-dashboard.md",
+      "category": "guides",
+      "weight": 3
+    },
+    {
+      "id": "guide-company-001",
+      "title": "如何设置公司主页？",
+      "keywords": ["公司主页", "雇主品牌", "公司简介", "招聘方指南"],
+      "path": "zh/guides/company-profile.md",
+      "category": "guides",
+      "weight": 3
+    },
+    {
+      "id": "guide-talent-001",
+      "title": "如何搜索人才？",
+      "keywords": ["人才搜索", "候选人", "招聘技巧", "猎头"],
+      "path": "zh/guides/talent-search.md",
+      "category": "guides",
+      "weight": 3
+    },
+    {
+      "id": "guide-hrs-001",
+      "title": "HRS 猎头系统工作流程",
+      "keywords": ["HRS", "猎头系统", "猎头", "佣金结算"],
+      "path": "zh/guides/hrs-workflow.md",
+      "category": "guides",
+      "weight": 3
+    },
+    {
+      "id": "guide-content-001",
+      "title": "内容与活动使用指南",
+      "keywords": ["资讯", "活动", "招聘会", "内容订阅"],
+      "path": "zh/guides/content-events.md",
+      "category": "guides",
+      "weight": 2
+    },
+    {
+      "id": "guide-ai-001",
+      "title": "AI 服务使用指南",
+      "keywords": ["AI 服务", "AI 客服", "简历解析", "职位推荐"],
+      "path": "zh/guides/ai-services.md",
+      "category": "guides",
+      "weight": 4
     },
     {
       "id": "product-intro-001",
       "title": "HiredChina 平台介绍",
       "keywords": ["平台介绍", "什么是 HiredChina", "产品说明", "about us"],
-      "path": "zh/knowledge/product/platform-intro.md",
-      "category": "product",
+      "path": "zh/product-overview/platform-intro.md",
+      "category": "product-overview",
+      "weight": 5
+    },
+    {
+      "id": "product-audience-001",
+      "title": "目标用户与服务对象",
+      "keywords": ["求职者", "招聘方", "猎头", "用户角色"],
+      "path": "zh/product-overview/audiences.md",
+      "category": "product-overview",
+      "weight": 4
+    },
+    {
+      "id": "product-features-001",
+      "title": "核心功能概览",
+      "keywords": ["核心功能", "职位搜索", "人才搜索", "AI 服务"],
+      "path": "zh/product-overview/core-features.md",
+      "category": "product-overview",
+      "weight": 4
+    },
+    {
+      "id": "product-trust-001",
+      "title": "平台信任与安全",
+      "keywords": ["信任安全", "企业认证", "防诈骗", "隐私保护"],
+      "path": "zh/product-overview/trust-safety.md",
+      "category": "product-overview",
+      "weight": 4
+    },
+    {
+      "id": "product-premium-001",
+      "title": "增值服务说明",
+      "keywords": ["增值服务", "会员", "招聘套餐", "简历置顶"],
+      "path": "zh/product-overview/premium-services.md",
+      "category": "product-overview",
       "weight": 2
+    },
+    {
+      "id": "changelog-2026-08",
+      "title": "2026 年 8 月更新",
+      "keywords": ["更新日志", "新功能", "修复", "2026-08"],
+      "path": "zh/changelog/2026-08.md",
+      "category": "changelog",
+      "weight": 3
     }
   ]
 }
