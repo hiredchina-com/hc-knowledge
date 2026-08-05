@@ -1,13 +1,7 @@
-# public-knowledge-site-publishing Specification（规格）
-
-## Purpose
-
-将 `hc-knowledge` 的多语言 Markdown 知识库稳定发布为公开 OSS 静态网站，同时保持发布身份最小权限、匿名写入禁止和可验证回滚路径。
-
-## Requirements
+## MODIFIED Requirements
 
 ### Requirement: 构建并发布知识库网站到 OSS
-系统 MUST 通过既有静态网站构建器构建当前 `hc-knowledge` 多语言 Markdown 源，并将产物发布到 OSS 桶 `hc-hw-assets` 根目录。
+系统 MUST 通过 `hc-hw` 静态网站构建器构建当前 `hc-knowledge` 多语言 Markdown 源，并将产物发布到专用 OSS 桶 `hc-hw-assets` 根目录。
 
 #### Scenario: 非 preview 发布成功
 - **WHEN** 获授权的发布工作流使用有效知识库源并成功完成静态网站构建
