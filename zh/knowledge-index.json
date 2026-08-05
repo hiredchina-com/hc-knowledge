@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "locale": "zh",
-  "updatedAt": "2026-07-28T00:00:00Z",
+  "updatedAt": "2026-08-05T06:00:00Z",
   "items": [
     {
       "id": "faq-account-001",
@@ -42,6 +42,14 @@
       "path": "zh/knowledge/product/platform-intro.md",
       "category": "product",
       "weight": 2
+    },
+    {
+      "id": "product-talent-001",
+      "title": "人才搜索功能介绍",
+      "keywords": ["人才搜索", "找人才", "候选人", "筛选人才", "国籍", "职位", "地区"],
+      "path": "zh/knowledge/product/talent-search.md",
+      "category": "product",
+      "weight": 4
     }
   ]
 }
